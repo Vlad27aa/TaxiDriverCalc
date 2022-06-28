@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор заработка таксиста</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="inputs">
+           
+            <h1>Калькулятор заработка таксиста</h1>
+            
+            <p>Касса после вычета комиссии, грн:</p> 
+            <input class="income" type="number">
+            
+            <p>Чаевые, грн:</p> 
+            <input class="tips" type="number">
+            
+            <p>Пробег, км:</p> 
+            <input class="distance" type="number">
+            
+            <p>Цена топлива, грн:</p>
+            <input class="fuelPrice" type="number">
+            
+            <p>Расход топлива на 100 км, л:</p> 
+            <input class="fuelСonsumption" type="number">
+            
+            <p>Отработано часов:</p> 
+            <input class="hoursWorked" type="number">
+
+        </div>
+
+        <button class="button">Просчитать</button>
+        <div class="out">Здесь будет результат!</div>
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
