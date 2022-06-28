@@ -12,27 +12,51 @@
 
     <div class="wrapper">
 
+        <img src="./img/taxi.png" alt="taxi" class="taxi">
+
+        <h1>Калькулятор заработка таксиста</h1>
+        
         <div class="inputs">
            
-            <h1>Калькулятор заработка таксиста</h1>
+            <div class="inputs__wrapper">
+                <p>Касса после вычета комиссии, грн:</p> 
+                <input class="income" type="text">
+            </div>
             
-            <p>Касса после вычета комиссии, грн:</p> 
-            <input class="income" type="number">
+            <div class="inputs__wrapper">
+                <p>Чаевые, грн:</p> 
+                <input class="tips" type="text">
+            </div>
             
-            <p>Чаевые, грн:</p> 
-            <input class="tips" type="number">
+            <div class="inputs__wrapper">
+                <p>Пробег, км:</p> 
+                <input class="distance" type="text">
+            </div>
             
-            <p>Пробег, км:</p> 
-            <input class="distance" type="number">
+            <div class="inputs__wrapper">
+                <p>Цена топлива, грн:</p>
+                <input class="fuelPrice" type="text">
+            </div>
             
-            <p>Цена топлива, грн:</p>
-            <input class="fuelPrice" type="number">
-            
-            <p>Расход топлива на 100 км, л:</p> 
-            <input class="fuelСonsumption" type="number">
-            
-            <p>Отработано часов:</p> 
-            <input class="hoursWorked" type="number">
+            <div class="inputs__wrapper">
+                <p>Расход топлива на 100 км, л:</p> 
+                <input class="fuelСonsumption" type="text">
+            </div>
+
+            <div class="inputs__wrapper">
+                <p>Амортизация, грн/км:</p> 
+                <input class="amortizationValue" type="text" value="1.5">
+            </div>
+
+            <div class="inputs__wrapper">
+                <p>Обед и кофе, грн:</p> 
+                <input class="dinner" type="text" value="0">
+            </div>
+                
+            <div class="inputs__wrapper">
+                <p>Отработано часов:</p> 
+                <input class="hoursWorked" type="text">
+                </div>
 
         </div>
 
