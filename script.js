@@ -18,7 +18,7 @@ function check() {
     'Касса с чаевыми - ' + (income + tips) + ' грн' + '<br>' +
     `Затраты на топливо - ${costFullDistance} грн` + '<br>' + 
     `Амортизация - ${amortization} грн` + '<br>' +
-    'Чистый заработок в час - ' + Math.round(profit / hoursWorked) + ' грн' + '<br>' +
+    'Чистые в час - ' + Math.round(profit / hoursWorked) + ' грн' + '<br>' +
     `Чистый заработок - ${profit} грн`
 
     
